@@ -1,0 +1,30 @@
+{
+  "name": "rbac",
+  "version": "1.0.0",
+  "description": "权限实战",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "lizhigao <lizhigao1231@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-nodejs-practice/rbac.git"
+  },
+  "bugs": {
+    "url": "https://github.com/my-nodejs-practice/rbac/issues"
+  },
+  "homepage": "https://github.com/my-nodejs-practice/rbac#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7"
+  }
+}
